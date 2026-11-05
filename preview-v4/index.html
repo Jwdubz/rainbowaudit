@@ -29,7 +29,8 @@ p{margin:0 0 14px;max-width:66ch}
 .hero h1 em{font-style:italic;color:var(--dac)}
 .shop{font-size:15px;font-weight:600;letter-spacing:.02em;color:var(--dac);margin:0 0 18px}
 .lede{font-size:clamp(19px,2.3vw,24px);line-height:1.45;color:var(--dink);margin-top:26px;max-width:34ch}
-.tag{margin-top:22px;font-family:var(--serif);font-style:italic;font-size:clamp(20px,2.4vw,26px);color:var(--dac)}
+.tag{margin-top:22px;font-family:var(--serif);font-style:italic;font-size:clamp(20px,2.4vw,26px);color:var(--dac);background:linear-gradient(100deg,#ffd98a 0%,#ffd98a 40%,#fff6e0 50%,#ffd98a 60%,#ffd98a 100%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:sheen 6s ease-in-out infinite}
+@keyframes sheen{from{background-position:100% 0}to{background-position:-150% 0}}
 .arcs{position:absolute;right:-12vw;top:50%;width:min(860px,110vw);aspect-ratio:1;translate:0 -50%;z-index:-1;opacity:.9;pointer-events:none}
 .arcs circle{fill:none;stroke-width:1.2;transform-origin:50% 50%;stroke-linecap:round}
 .arcs .a1{stroke:#ffd98a;stroke-dasharray:60 340;animation:spin 28s linear infinite}
